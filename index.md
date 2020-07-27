@@ -21,7 +21,7 @@ text into classes of positive, negative, or neutral automatically. However the n
 meaning words could have a large number of forms, whether orthographic or morphologic, or mixed with words of other languages such as French or English.
 
 Arabic is also a phonetically-rich language containing short and long vowels, soft and emphasised consonants, and guttural phonemes such that transcribing it in Latin script, a relatively phonetically-poor language,
-generates severe word ambiguities that it becomes difficult to transliterate to Arabic. For that, one Arabizi word could easilty map to several Arabic words of different meanings. We appreciated the fact that Arabizi
+generates severe word ambiguities that it becomes difficult to transliterate to Arabic. For that, one Arabizi word could easily map to several Arabic words of different meanings. We appreciated the fact that Arabizi
 is a social language and resourced it independently without attempting to transliterate it to Arabic. Read more in-depth about the challenges of Arabizi for sentiment classification and transliteration in the link below.  
 
 {% include article.html %}
