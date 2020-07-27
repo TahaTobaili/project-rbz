@@ -46,4 +46,4 @@ This file contains:
 
 ## Contact
 
-Have any questions? (Get in touch)[https://tahatobaili.github.io/].
+Have any questions? [Get in touch](https://tahatobaili.github.io/).
