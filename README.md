@@ -1,7 +1,6 @@
 # Project RBZ: Resourcing RBZ for NLP
 
-This is the Github page for my PhD research "Sentiment Analysis for Arabizi on Social Media" where we publicise the outcome resources of the project. 
-Visit the [project page](https://tahatobaili.github.io/project-rbz/) online for more details and content about the project.
+This is the Github page for my PhD research "Sentiment Analysis for Arabizi on Social Media" where we publicise the outcome resources of the project. Visit the [webpage](https://tahatobaili.github.io/project-rbz/) for more details and content about the project.
 
 
 ## Introduction
