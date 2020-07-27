@@ -1,8 +1,3 @@
-```yml
-title: [Project RBZ]
-description: [Resourcing RBZ for NLP]
-```
-
 # Project RBZ
 ## Resourcing RBZ for NLP
 
