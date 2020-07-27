@@ -274,19 +274,19 @@ header h2 { width: 540px; margin-top: 0; margin-bottom: 0; font-size: 26px; font
 
 #main-content img { max-width: 100%; }
 
-aside#sidebar { float: right; width: 200px; min-height: 504px; padding-left: 20px; font-size: 12px; line-height: 1.3; background: transparent url(../images/sidebar-bg.jpg) 0 0 no-repeat; }
+.download { margin: 0 auto; padding: 0 0 0 130px; width: 400px; min-height: 65px; font-size: 12px; line-height: 1.3; background: transparent url(../images/sidebar-bg.jpg) center bottom no-repeat; }
 
-aside#sidebar p.repo-owner, aside#sidebar p.repo-owner a { font-weight: bold; }
+.download p.repo-owner, .download p.repo-owner a { font-weight: bold; }
 
 #downloads { margin-bottom: 40px; }
 
-a.button { width: 134px; height: 58px; padding-top: 22px; padding-left: 68px; font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; font-size: 23px; line-height: 1.2; color: #fff; }
+a.button { width: 134px; height: 58px; padding: 10px 0 0 45px; font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; font-size: 23px; line-height: 1.2; color: #fff; float: left; }
 
 a.button small { display: block; font-size: 11px; }
 
 header a.button { position: absolute; top: 0; right: 0; background: transparent url(../images/github-button.png) 0 0 no-repeat; }
 
-aside a.button { display: block; width: 138px; padding-left: 64px; margin-bottom: 20px; font-size: 21px; background: transparent url(../images/download-button.png) 0 0 no-repeat; }
+.download a.button { display: block; width: 87px; height: 46px; font-size: 15px; background: transparent url(../images/download-button.png) 0 0 no-repeat; }
 
 code, pre { margin-bottom: 30px; font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace; font-size: 13px; color: #222; }
 
@@ -374,5 +374,28 @@ footer a:hover { color: #444; }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+.clear { clear: both; height: 1px; }
+
+header .inner ul { list-style-type: none; padding: 0; margin: 0; float: right; }
+
+header .inner ul li { float: left; font-size: 22px; margin: 0 0 0 15px; }
+
+header .inner ul li a { color: #fff; }
+
+#main-content { width: 940px; }
+
+.article { width: 540px; height: 380px; display: block; margin: 0 auto; padding: 20px 0; }
+
+.article img { -webkit-box-shadow: 0 0 10px #212121; }
+
+.article img:hover { filter: brightness(70%); }
+
+.article span { text-align: center; display: block; }
+
+.timeline { width: 1220px; height: 335px; margin: 0 -142px; padding: 5px 0 0 0; }
+
+.video { width: 640px; height: 390px; margin: 0 auto; display: block; padding: 8px 0 20px 0; }
+
+.video span { text-align: center; display: block; }
 
 /*# sourceMappingURL=style.css.map */

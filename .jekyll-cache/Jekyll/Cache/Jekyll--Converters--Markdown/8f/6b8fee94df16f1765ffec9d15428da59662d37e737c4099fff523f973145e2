@@ -1,0 +1,182 @@
+I"�<h1 id="arabizi">Arabizi</h1>
+
+<p>Arabizi is the name given to a new social transcription of the spoken Arabic in Latin script. The term comes from the portmanteau of <em>Araby</em> (Arabic) and <em>Englizi</em> (English).
+It is an informal written language where Arabs transcribe their dialectal mother tongue in text using Latin alphanumeral instead of Arabic script. For example حبيبي Ḥabībī <em>my-love</em> could be transcribed as
+<em>7abibi</em> in Arabizi.</p>
+
+<h1 id="sentiment-analysis-for-arabizi-on-social-media">Sentiment Analysis for Arabizi on Social Media</h1>
+
+<p>Author: <a href="https://tahatobaili.github.io/">Taha Tobaili</a>, PhD candidate, <a href="http://kmi.open.ac.uk/">Knowledge Media Institute (KMi)</a>.<br />
+Sytem Developer: <a href="">Chris Sanders</a>, KMi.<br />
+Supervisors: <a href="">Miriam Fernandez</a> and <a href="">Harith Alani</a>, KMi.<br />
+Contributors: <a href="">Rania Islambuli</a>, <a href="">Omar Farhat</a>, and <a href="">Omar Osman</a>, computer science graduates, <a href="">Lebanese American University</a>.</p>
+
+<p>Arabizi is extremely low resourced for Natural Language Processing (NLP), in this research we focus on resourcing Lebanese dialect Arabizi for sentiment analysis, an NLP classification task of
+text into classes of positive, negative, or neutral automatically. However the nature of the Arabizi scripture poses many challenges for sentiment classification, such that it is highly sparse and codeswitched,
+meaning words could have a large number of forms, whether orthographic or morphologic, or mixed with words of other languages such as French or English.</p>
+
+<p>Arabic is also a phonetically-rich language containing short and long vowels, soft and emphasised consonants, and guttural phonemes such that transcribing it in Latin script, a relatively phonetically-poor language,
+generates severe word ambiguities that it becomes difficult to transliterate to Arabic. For that, one Arabizi word could easilty map to several Arabic words of different meanings. We appreciated the fact that Arabizi
+is a social language and resourced it independently without attempting to transliterate it to Arabic. Read more in-depth about the challenges of Arabizi for sentiment classification and transliteration in the link below.</p>
+
+<div class="article">
+<a href="https://towardsdatascience.com/sentiment-analysis-for-low-resourced-languages-on-social-media-128bf01f2547" title="Click to read" target="_blank"><img src="/assets/images/Arabizi-Conversation.jpeg" alt="Alternate Text" /></a>
+<span>
+    <a href="https://towardsdatascience.com/sentiment-analysis-for-low-resourced-languages-on-social-media-128bf01f2547" title="Click to read" target="_blank"><em>Sentiment Analysis for Low Resourced Languages on Social Media</em></a>
+</span>
+</div>
+
+<h1 id="timeline">Timeline</h1>
+
+<p>We kicked off the research by a pilot study quantifying Arabizi on Twitter across two different Arab regions, and discovered language identification features that could be used in training a classifier to identify Arabizi
+from non-Arabizi text. From this point onwards, our goal was to create a new sentiment lexicon and evaluation datasets, however the main challenge was mapping sentiment words with their inflectional and orthographic variants.
+The deeper we ingressed into the study the more we realised how challenging this was. Hence the research was more applied than theoretical, we kept trying different approaches, failing relentlessly, but slowly paving the way
+for a sucessful approach at the end:</p>
+
+<div class="timeline">
+    <img src="/assets/images/timeline.png" alt="Timeline" />
+</div>
+<div class="clear"></div>
+
+<h1 id="presentation">Presentation</h1>
+
+<p>I presented my work to the lab during the early stages of the PhD. In this talk I described some of the challenges for processing Arabizi and the development of the sentiment annotated dataset:</p>
+
+<div class="video">
+<video width="640" height="360" poster="/assets/images/thumbnail.jpg" controls="" preload="none">
+    <source src="/assets/videos/talk-edit-again.mp4" type="video/mp4" />
+</video>
+<span>At the KMi on May 2017</span>
+</div>
+
+<h1 id="resources">Resources</h1>
+
+<h2 id="arabizi-identification-in-twitter-data"><a href="">Arabizi Identification in Twitter Data</a></h2>
+
+<ul>
+  <li>This is an unordered list following a header.</li>
+  <li>This is an unordered list following a header.</li>
+  <li>This is an unordered list following a header.</li>
+</ul>
+
+<h5 id="header-5">Header 5</h5>
+
+<ol>
+  <li>This is an ordered list following a header.</li>
+  <li>This is an ordered list following a header.</li>
+  <li>This is an ordered list following a header.</li>
+</ol>
+
+<h6 id="header-6">Header 6</h6>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">head1</th>
+      <th style="text-align: left">head two</th>
+      <th style="text-align: left">three</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">ok</td>
+      <td style="text-align: left">good swedish fish</td>
+      <td style="text-align: left">nice</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">out of stock</td>
+      <td style="text-align: left">good and plenty</td>
+      <td style="text-align: left">nice</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">ok</td>
+      <td style="text-align: left">good <code class="language-plaintext highlighter-rouge">oreos</code></td>
+      <td style="text-align: left">hmm</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">ok</td>
+      <td style="text-align: left">good <code class="language-plaintext highlighter-rouge">zoute</code> drop</td>
+      <td style="text-align: left">yumm</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="theres-a-horizontal-rule-below-this">There’s a horizontal rule below this.</h3>
+
+<hr />
+
+<h3 id="here-is-an-unordered-list">Here is an unordered list:</h3>
+
+<ul>
+  <li>Item foo</li>
+  <li>Item bar</li>
+  <li>Item baz</li>
+  <li>Item zip</li>
+</ul>
+
+<h3 id="and-an-ordered-list">And an ordered list:</h3>
+
+<ol>
+  <li>Item one</li>
+  <li>Item two</li>
+  <li>Item three</li>
+  <li>Item four</li>
+</ol>
+
+<h3 id="and-a-nested-list">And a nested list:</h3>
+
+<ul>
+  <li>level 1 item
+    <ul>
+      <li>level 2 item</li>
+      <li>level 2 item
+        <ul>
+          <li>level 3 item</li>
+          <li>level 3 item</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>level 1 item
+    <ul>
+      <li>level 2 item</li>
+      <li>level 2 item</li>
+      <li>level 2 item</li>
+    </ul>
+  </li>
+  <li>level 1 item
+    <ul>
+      <li>level 2 item</li>
+      <li>level 2 item</li>
+    </ul>
+  </li>
+  <li>level 1 item</li>
+</ul>
+
+<h3 id="small-image">Small image</h3>
+
+<p><img src="https://github.githubassets.com/images/icons/emoji/octocat.png" alt="Octocat" /></p>
+
+<h3 id="large-image">Large image</h3>
+
+<p><img src="https://guides.github.com/activities/hello-world/branching.png" alt="Branching" /></p>
+
+<h3 id="definition-lists-can-be-used-with-html-syntax">Definition lists can be used with HTML syntax.</h3>
+
+<dl>
+<dt>Name</dt>
+<dd>Godzilla</dd>
+<dt>Born</dt>
+<dd>1952</dd>
+<dt>Birthplace</dt>
+<dd>Japan</dd>
+<dt>Color</dt>
+<dd>Green</dd>
+</dl>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>The final element.
+</code></pre></div></div>
+:ET
