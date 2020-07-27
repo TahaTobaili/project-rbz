@@ -23,16 +23,15 @@ Read more in-depth about the challenges of Arabizi for sentiment classification 
 
 # Resources
 
-## [Arabizi Identification in Twitter Data (2016)](https://www.aclweb.org/anthology/P16-3008.pdf){:target="_blank"}
+## [Arabizi Identification in Twitter Data (2016)](https://www.aclweb.org/anthology/P16-3008.pdf)
 
 In this paper we present a pilot study about the percentage of Arabizi usage on Twitter across Lebanon and Egypt.
 We also describe our approach of training a classifier that identifies Arabizi from other Latin script languages.
 
 This file contains two 5k tweets annotated datasets (Arabizi/Not Arabizi) from Lebanon and Egypt.
 
-{% include download.html filename = "arabizi-identification" %}
 
-## [SenZi: A Sentiment Analysis Lexicon for the Latinised Arabic (2019)](https://www.aclweb.org/anthology/R19-1138.pdf){:target="_blank"}
+## [SenZi: A Sentiment Analysis Lexicon for the Latinised Arabic (2019)](https://www.aclweb.org/anthology/R19-1138.pdf)
 
 In this paper we present the outcomes of the work: SenZi, the new Lebanese dialect Arabizi sentiment lexicon, sentiment annotated datasets, and a Facebook corpus.
 We then detail our approach in expanding every sentiment word in SenZi to match with its inflectional and orthgraphic variants automatically using word embeddings jointly with
