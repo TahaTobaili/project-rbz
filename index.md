@@ -79,4 +79,4 @@ Our next direction would be to explore resourcing other low resourced languages 
 I would like to thank every individual who contributed to this project from producing datasets to developing and maintaining the data annotation system and especially my supervisors for their
 continuous guidance and support.
   
-If you find the resources useful and would like to appreciate the work or have any question, please drop [me](https://tahatobaili.github.io/){:target="_blank"} an email.  
+If you find the resources useful and would like to appreciate the work or have any question, please drop [me](https://tahatobaili.github.io/){:target="_blank"} an email.
