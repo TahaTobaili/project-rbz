@@ -37,7 +37,7 @@ for a sucessful approach at the end:
 
 ## Presentation
 
-I presented my work to the lab in May 2017 during the early stages of the PhD . In this talk I described some of the challenges for processing Arabizi and the development of the sentiment annotated dataset:
+I presented my work to the lab in May 2017 during the early stages of the PhD. In this talk I described some of the challenges for processing Arabizi and the development of the sentiment annotated dataset (slides in the link below):
 
 {% include video.html %}
   
