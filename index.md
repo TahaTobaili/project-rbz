@@ -5,10 +5,10 @@ layout: default
 
 # Sentiment Analysis for Arabizi on Social Media
 
-Author: [Taha Tobaili](https://tahatobaili.github.io/){:target="_blank"}, PhD candidate, [Knowledge Media Institute (KMi)](http://kmi.open.ac.uk/){:target="_blank"}.  
+Author: [Taha Tobaili](https://tahatobaili.github.io/){:target="_blank"}, [Knowledge Media Institute (KMi)](http://kmi.open.ac.uk/){:target="_blank"}.  
 Sytem Developer: [Chris Sanders](http://kmi.open.ac.uk/people/member/chris-sanders){:target="_blank"}, KMi.  
 Supervisors: [Miriam Fernandez](http://people.kmi.open.ac.uk/miriam-fernandez/){:target="_blank"} and [Harith Alani](http://people.kmi.open.ac.uk/harith/){:target="_blank"}, KMi.  
-Contributors: [Rania Islambuli](https://people.epfl.ch/rania.islambouli?lang=en){:target="_blank"}, [Omar Farhat](https://www.linkedin.com/in/omar-farhat-2aa689102/){:target="_blank"}, and [Omar Osman](https://www.linkedin.com/in/omar-osman/){:target="_blank"}, computer science graduates, Lebanese American University.
+Contributors: [Rania Islambuli](https://people.epfl.ch/rania.islambouli?lang=en){:target="_blank"}, [Omar Farhat](https://www.linkedin.com/in/omar-farhat-2aa689102/){:target="_blank"}, and [Omar Osman](https://www.linkedin.com/in/omar-osman/){:target="_blank"}, Lebanese American University.
 
 ## Introduction
 
