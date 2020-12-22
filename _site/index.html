@@ -23,7 +23,7 @@
 <meta property="og:url" content="http://localhost:4000/" />
 <meta property="og:site_name" content="Project RBZ" />
 <script type="application/ld+json">
-{"description":"Resources for Arabizi","@type":"WebSite","url":"http://localhost:4000/","name":"Project RBZ","headline":"Project RBZ","@context":"https://schema.org"}</script>
+{"headline":"Project RBZ","description":"Resources for Arabizi","@type":"WebSite","url":"http://localhost:4000/","name":"Project RBZ","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   </head>
@@ -41,10 +41,12 @@
         <section id="main-content">
           <h1 id="sentiment-analysis-for-arabizi-on-social-media">Sentiment Analysis for Arabizi on Social Media</h1>
 
-<p>Author: <a href="https://tahatobaili.github.io/" target="_blank">Taha Tobaili</a>, PhD candidate, <a href="http://kmi.open.ac.uk/" target="_blank">Knowledge Media Institute (KMi)</a>.<br />
-Sytem Developer: <a href="http://kmi.open.ac.uk/people/member/chris-sanders" target="_blank">Chris Sanders</a>, KMi.<br />
+<p>Author: <a href="https://tahatobaili.github.io/" target="_blank">Taha Tobaili</a>, <a href="http://kmi.open.ac.uk/" target="_blank">Knowledge Media Institute (KMi)</a>.<br />
 Supervisors: <a href="http://people.kmi.open.ac.uk/miriam-fernandez/" target="_blank">Miriam Fernandez</a> and <a href="http://people.kmi.open.ac.uk/harith/" target="_blank">Harith Alani</a>, KMi.<br />
-Contributors: <a href="https://people.epfl.ch/rania.islambouli?lang=en" target="_blank">Rania Islambuli</a>, <a href="https://www.linkedin.com/in/omar-farhat-2aa689102/" target="_blank">Omar Farhat</a>, and <a href="https://www.linkedin.com/in/omar-osman/" target="_blank">Omar Osman</a>, computer science graduates, Lebanese American University.</p>
+Sytem Developer: <a href="http://kmi.open.ac.uk/people/member/chris-sanders" target="_blank">Chris Sanders</a>, KMi.<br />
+Acknowledgments: <a href="https://sas.lau.edu.lb/csm/people/sanaa-sharafeddine.php" target="_blank">Sanaa Sharafeddine</a>, <a href="https://people.epfl.ch/rania.islambouli?lang=en" target="_blank">Rania Islambuli</a>, <a href="https://www.linkedin.com/in/omar-farhat-2aa689102/" target="_blank">Omar Farhat</a>, and
+<a href="https://www.linkedin.com/in/omar-osman/" target="_blank">Omar Osman</a>, Lebanese American University,<br />
+<a href="https://www.aub.edu.lb/pages/profile.aspx?memberId=hh63" target="_blank">Hazem El-Hajj</a>, American University of Beirut, and <a href="https://www.uni-mannheim.de/dws/people/professors/prof-dr-goran-glavas/" target="_blank">Goran Glavaš</a>, Universität Mannheim.</p>
 
 <h2 id="introduction">Introduction</h2>
 
@@ -81,15 +83,11 @@ for a sucessful approach at the end:</p>
 
 <h2 id="presentation">Presentation</h2>
 
-<p>I presented my work to the lab during the early stages of the PhD. In this talk I described some of the challenges for processing Arabizi and the development of the sentiment annotated dataset:</p>
+<p>I presented my work to the lab in May 2017 during the early stages of the PhD. In this talk I described some of the challenges for processing Arabizi and the development of the sentiment annotated dataset:</p>
 
 <div class="video">
-<video width="640" height="360" poster="./assets/images/thumbnail.jpg" controls="" preload="none">
-    <source src="./assets/videos/talk-edit-again.mp4" type="video/mp4" />
-</video>
-<span>Sentiment Analysis for Arabizi, A Multilingual Jargon on Social Media <br />
-May 2017
-</span>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8fQpCeMxQvE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<span><a href="https://www.slideshare.net/tobaili/sentiment-analysis-for-arabizi-a-multilingual-jargon-on-social-media" target="_blank">Slides</a></span>
 </div>
 
 <h1 id="resources">Resources</h1>
@@ -103,20 +101,34 @@ We also describe our approach of training a classifier that identifies Arabizi f
 
 <div class="download">
      <a href="./resources/arabizi-identification.zip" class="button">
-       <small>Download</small>
-       .zip file
+       Download
+     <small>.zip file</small>
      </a>
-     <a href="./resources/arabizi-identification.tar.gz" class="button">
+   <!--  <a href="./resources/arabizi-identification.tar.gz" class="button">
        <small>Download</small>
        .tar.gz file
-     </a>
+     </a> -->
  </div>
+
+<h2 id="discovering-orthographic-and-morphological-variances-in-low-resourced-languages-2019"><a href="resources/Discovering_Orthographic_and_Morphological_Variances_in_Low_Resourced_Languages.pdf" target="_blank">Discovering Orthographic and Morphological Variances in Low-Resourced Languages (2019)</a></h2>
+
+<p>We submitted an abstract of our work at <a href="https://www.eurnlp.org/eurnlp-2019" target="_blank">EurNLP 2019</a> which proves the effectiveness of word embeddings onto the development of sentiment lexicons,
+especially in languages that lack a standard orthography such as Arabizi. We presented a summary of this work in the poster below:</p>
+
+<div class="image">
+    <img src="assets/images/EurNLP.jpg" />
+</div>
 
 <h2 id="senzi-a-sentiment-analysis-lexicon-for-the-latinised-arabic-2019"><a href="https://www.aclweb.org/anthology/R19-1138.pdf" target="_blank">SenZi: A Sentiment Analysis Lexicon for the Latinised Arabic (2019)</a></h2>
 
 <p>In this paper we present the outcomes of the work: SenZi, the new Lebanese dialect Arabizi sentiment lexicon, sentiment annotated datasets, and a Facebook corpus.
 We then detail our approach in expanding every sentiment word in SenZi to match with its inflectional and orthgraphic variants automatically using word embeddings jointly with
 a simple rule-based technique.</p>
+
+<div class="video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RtoRyqEq0sA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<span><a href="https://www.slideshare.net/tobaili/senzi-a-sentiment-analysis-lexicon-for-the-latinised-arabic-arabizi" target="_blank">Slides</a></span>
+</div>
 
 <p>This file contains:</p>
 
@@ -130,19 +142,63 @@ a simple rule-based technique.</p>
 
 <div class="download">
      <a href="./resources/senzi.zip" class="button">
-       <small>Download</small>
-       .zip file
+       Download
+     <small>.zip file</small>
      </a>
-     <a href="./resources/senzi.tar.gz" class="button">
+   <!--  <a href="./resources/senzi.tar.gz" class="button">
        <small>Download</small>
        .tar.gz file
-     </a>
+     </a> -->
  </div>
 
-<h2 id="coming-soon">Coming Soon</h2>
+<h2 id="phd-thesis-sentiment-analysis-for-the-low-resourced-latinised-arabic-arabizi-2020"><a href="resources/Thesis.Taha.Tobaili.pdf" target="_blank">PhD Thesis: Sentiment Analysis for the Low-Resourced Latinised Arabic (Arabizi) (2020)</a></h2>
 
-<p>By far our work scratches the surface in addressing the lexical sparsity of Arabizi, we are currently working on a new approach that extracted 200K variants of the same sentiment words.
-Our next direction would be to explore resourcing other low resourced languages with similar or new challenges.</p>
+<p>Contains a detailed overview of the problem, linguistic nitty-gritty of Arabizi’s different transcriptions, literature review about several NLP tasks adressing Arabizi,
+development of the datasets and sentiment lexicon, and finally six lexical expansions to address the high lexical sparsity caused by the inconsistent orthography and rich morphology.
+This thesis sets the baseline of sentiment analysis for Arabizi without attempting to transliterate it to Arabic.</p>
+
+<p>This file contains miscellaneous of resources that did not get published:</p>
+
+<ul>
+  <li>Multi-dialect Twitter datasets from Qatar, Emirates, Saudi Arabia, Kuwait, Jordan, Lebanon, Egypt, Algeria, Morrocco.</li>
+  <li>List of Arabic sentiment words with their Part of Speech tags and IPA transcriptions as well.</li>
+  <li>List of Arabic Arabizi translation matrices.</li>
+  <li>List of features used in the lexicon based approach (negations and stop words).</li>
+</ul>
+
+<div class="download">
+     <a href="./resources/thesis.zip" class="button">
+       Download
+     <small>.zip file</small>
+     </a>
+   <!--  <a href="./resources/thesis.tar.gz" class="button">
+       <small>Download</small>
+       .tar.gz file
+     </a> -->
+ </div>
+
+<h2 id="lexical-induction-of-morphological-and-orthographic-forms-for-low-resourced-languages-2020"><a href="https://www.aclweb.org/anthology/2020.msr-1.5.pdf" target="_blank">Lexical Induction of Morphological and Orthographic Forms for Low-Resourced Languages (2020)</a></h2>
+
+<p>An extension to the previous work, we reverse-engineer the lexical expansion approach over the original 2K sentiment SenZi words achieving a greater expansion of 171K words. Latinisation of non-Latin script languages is common across widely spoken
+languages as well. Our approach has the potential to induce morphologic and orthographic forms of Latinscript words for other languages that lacks a standard orthography.</p>
+
+<div class="video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kYsMFJRcD1E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<span><a href="https://www.slideshare.net/tobaili/lexical-induction-of-orthographic-and-morphological-forms-for-low-resourced-languages" target="_blank">Slides</a></span>
+</div>
+
+<p>This file contains the newly expanded sentiment lexicon: Senzi-Large - 171K words.</p>
+
+<div class="download">
+     <a href="./resources/senzi-large.zip" class="button">
+       Download
+     <small>.zip file</small>
+     </a>
+   <!--  <a href="./resources/senzi-large.tar.gz" class="button">
+       <small>Download</small>
+       .tar.gz file
+     </a> -->
+ </div>
 
 <h1 id="appreciation">Appreciation</h1>
 
@@ -156,5 +212,8 @@ continuous guidance and support.</p>
     </div>
 
     
+    <div class="foot">
+    <span>Powered by Github pages - theme Architect</span>
+    </div>
   </body>
 </html>

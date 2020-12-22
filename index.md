@@ -5,10 +5,12 @@ layout: default
 
 # Sentiment Analysis for Arabizi on Social Media
 
-Author: [Taha Tobaili](https://tahatobaili.github.io/){:target="_blank"}, PhD candidate, [Knowledge Media Institute (KMi)](http://kmi.open.ac.uk/){:target="_blank"}.  
-Sytem Developer: [Chris Sanders](http://kmi.open.ac.uk/people/member/chris-sanders){:target="_blank"}, KMi.  
+Author: [Taha Tobaili](https://tahatobaili.github.io/){:target="_blank"}, [Knowledge Media Institute (KMi)](http://kmi.open.ac.uk/){:target="_blank"}.  
 Supervisors: [Miriam Fernandez](http://people.kmi.open.ac.uk/miriam-fernandez/){:target="_blank"} and [Harith Alani](http://people.kmi.open.ac.uk/harith/){:target="_blank"}, KMi.  
-Contributors: [Rania Islambuli](https://people.epfl.ch/rania.islambouli?lang=en){:target="_blank"}, [Omar Farhat](https://www.linkedin.com/in/omar-farhat-2aa689102/){:target="_blank"}, and [Omar Osman](https://www.linkedin.com/in/omar-osman/){:target="_blank"}, computer science graduates, Lebanese American University.
+Sytem Developer: [Chris Sanders](http://kmi.open.ac.uk/people/member/chris-sanders){:target="_blank"}, KMi.  
+Acknowledgments: [Sanaa Sharafeddine](https://sas.lau.edu.lb/csm/people/sanaa-sharafeddine.php){:target="_blank"}, [Rania Islambuli](https://people.epfl.ch/rania.islambouli?lang=en){:target="_blank"}, [Omar Farhat](https://www.linkedin.com/in/omar-farhat-2aa689102/){:target="_blank"}, and
+[Omar Osman](https://www.linkedin.com/in/omar-osman/){:target="_blank"}, Lebanese American University,  
+[Hazem El-Hajj](https://www.aub.edu.lb/pages/profile.aspx?memberId=hh63){:target="_blank"}, American University of Beirut, and [Goran Glavaš](https://www.uni-mannheim.de/dws/people/professors/prof-dr-goran-glavas/){:target="_blank"}, Universität Mannheim.
 
 ## Introduction
 
@@ -37,9 +39,9 @@ for a sucessful approach at the end:
 
 ## Presentation
 
-I presented my work to the lab during the early stages of the PhD. In this talk I described some of the challenges for processing Arabizi and the development of the sentiment annotated dataset:
+I presented my work to the lab in May 2017 during the early stages of the PhD. In this talk I described some of the challenges for processing Arabizi and the development of the sentiment annotated dataset:
 
-{% include video.html %}
+{% include video.html link = "8fQpCeMxQvE" slideshare = "https://www.slideshare.net/tobaili/sentiment-analysis-for-arabizi-a-multilingual-jargon-on-social-media" %}
   
 
 # Resources
@@ -53,11 +55,21 @@ This file contains two 5k tweets annotated datasets (Arabizi/Not Arabizi) from L
 
 {% include download.html filename = "arabizi-identification" %}
 
+## [Discovering Orthographic and Morphological Variances in Low-Resourced Languages (2019)](resources/Discovering_Orthographic_and_Morphological_Variances_in_Low_Resourced_Languages.pdf){:target="_blank"}
+
+We submitted an abstract of our work at [EurNLP 2019](https://www.eurnlp.org/eurnlp-2019){:target="_blank"} which proves the effectiveness of word embeddings onto the development of sentiment lexicons,
+especially in languages that lack a standard orthography such as Arabizi. We presented a summary of this work in the poster below:
+
+{% include image.html filename = "EurNLP.jpg" %}
+
 ## [SenZi: A Sentiment Analysis Lexicon for the Latinised Arabic (2019)](https://www.aclweb.org/anthology/R19-1138.pdf){:target="_blank"}
 
 In this paper we present the outcomes of the work: SenZi, the new Lebanese dialect Arabizi sentiment lexicon, sentiment annotated datasets, and a Facebook corpus.
 We then detail our approach in expanding every sentiment word in SenZi to match with its inflectional and orthgraphic variants automatically using word embeddings jointly with
-a simple rule-based technique. 
+a simple rule-based technique.
+
+
+{% include video.html link = "RtoRyqEq0sA" slideshare = "https://www.slideshare.net/tobaili/senzi-a-sentiment-analysis-lexicon-for-the-latinised-arabic-arabizi" %}
 
 This file contains:
 
@@ -69,14 +81,35 @@ This file contains:
 
 {% include download.html filename = "senzi" %}
 
-## Coming Soon
+## [PhD Thesis: Sentiment Analysis for the Low-Resourced Latinised Arabic (Arabizi) (2020)](resources/Thesis.Taha.Tobaili.pdf){:target="_blank"}
 
-By far our work scratches the surface in addressing the lexical sparsity of Arabizi, we are currently working on a new approach that extracted 200K variants of the same sentiment words.
-Our next direction would be to explore resourcing other low resourced languages with similar or new challenges.
+Contains a detailed overview of the problem, linguistic nitty-gritty of Arabizi's different transcriptions, literature review about several NLP tasks adressing Arabizi,
+development of the datasets and sentiment lexicon, and finally six lexical expansions to address the high lexical sparsity caused by the inconsistent orthography and rich morphology.
+This thesis sets the baseline of sentiment analysis for Arabizi without attempting to transliterate it to Arabic.
+
+This file contains miscellaneous of resources that did not get published:
+
+* Multi-dialect Twitter datasets from Qatar, Emirates, Saudi Arabia, Kuwait, Jordan, Lebanon, Egypt, Algeria, Morrocco.
+* List of Arabic sentiment words with their Part of Speech tags and IPA transcriptions as well.
+* List of Arabic Arabizi translation matrices.
+* List of features used in the lexicon based approach (negations and stop words).
+
+{% include download.html filename = "thesis" %}
+
+## [Lexical Induction of Morphological and Orthographic Forms for Low-Resourced Languages (2020)](https://www.aclweb.org/anthology/2020.msr-1.5.pdf){:target="_blank"}
+
+An extension to the previous work, we reverse-engineer the lexical expansion approach over the original 2K sentiment SenZi words achieving a greater expansion of 171K words. Latinisation of non-Latin script languages is common across widely spoken
+languages as well. Our approach has the potential to induce morphologic and orthographic forms of Latinscript words for other languages that lacks a standard orthography.
+
+{% include video.html link = "kYsMFJRcD1E" style = "senzi" slideshare = "https://www.slideshare.net/tobaili/lexical-induction-of-orthographic-and-morphological-forms-for-low-resourced-languages" %}
+
+This file contains the newly expanded sentiment lexicon: Senzi-Large - 171K words.
+
+{% include download.html filename = "senzi-large" %}
 
 # Appreciation
 
 I would like to thank every individual who contributed to this project from producing datasets to developing and maintaining the data annotation system and especially my supervisors for their
 continuous guidance and support.
   
-If you find the resources useful and would like to appreciate the work or have any question, please drop [me](https://tahatobaili.github.io/){:target="_blank"} an email.  
+If you find the resources useful and would like to appreciate the work or have any question, please drop [me](https://tahatobaili.github.io/){:target="_blank"} an email.

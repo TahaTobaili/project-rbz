@@ -382,7 +382,9 @@ header .inner ul li { float: left; font-size: 22px; margin: 0 0 0 15px; }
 
 header .inner ul li a { color: #fff; }
 
-#main-content { width: 940px; }
+#main-content { width: 1024px; }
+
+h1, h2 { margin: 30px 0 10px 0 !important; }
 
 .article { width: 540px; height: 380px; display: block; margin: 0 auto; padding: 20px 0; }
 
@@ -394,8 +396,16 @@ header .inner ul li a { color: #fff; }
 
 .timeline { width: 1220px; height: 335px; margin: 0 -142px; padding: 5px 0 0 0; }
 
-.video { width: 640px; height: 390px; margin: 0 auto; display: block; padding: 8px 0 20px 0; }
+.video { width: 560px; height: 315px; margin: 45px auto 70px auto; display: block; }
 
 .video span { text-align: center; display: block; }
+
+.image { width: 640px; height: 907px; margin: 0 auto; padding: 20px 0; display: block; }
+
+.image img { border: 1px solid #ddd; border-radius: 10px; padding: 5px; }
+
+.download a.button { margin-left: 75px !important; }
+
+.foot { width: 333px; margin: 0 auto; padding: 20px; }
 
 /*# sourceMappingURL=style.css.map */
