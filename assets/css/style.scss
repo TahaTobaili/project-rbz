@@ -12,6 +12,16 @@ body{
     min-width: 1260px
 }
 
+@media only screen and (max-width: 767px){
+    header{
+        padding:20px 0 20px 20px;
+    }
+    
+    #content-wrapper .inner{
+        padding-left: 20px
+    }
+}
+
 header .inner{
     width:1260px
 }
@@ -40,6 +50,9 @@ header .inner ul li a{
 #content-wrapper .inner{
     width: 1260px
 }
+
+
+
 
 #main-content{
     min-width:1260px;
