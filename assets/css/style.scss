@@ -6,6 +6,10 @@
 .clear{
     clear: both;
     height: 1px;
+
+
+body{
+    min-width: 1024px
 }
 
 header .inner ul{
@@ -23,6 +27,10 @@ header .inner ul li{
 
 header .inner ul li a{
     color: #fff
+}
+
+#content-wrapper{
+    min-width:1024px;
 }
 
 #main-content{
