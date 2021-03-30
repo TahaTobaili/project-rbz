@@ -376,11 +376,15 @@ footer a:hover { color: #444; }
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 .clear { clear: both; height: 1px; }
 
+body { min-width: 1024px; }
+
 header .inner ul { list-style-type: none; padding: 0; margin: 0; float: right; }
 
 header .inner ul li { float: left; font-size: 22px; margin: 0 0 0 15px; }
 
 header .inner ul li a { color: #fff; }
+
+#content-wrapper { min-width: 1024px; }
 
 #main-content { width: 1024px; }
 
