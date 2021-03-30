@@ -376,7 +376,9 @@ footer a:hover { color: #444; }
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 .clear { clear: both; height: 1px; }
 
-body { min-width: 1422px; }
+body { min-width: 1260px; }
+
+header .inner { width: 1260px; }
 
 header .inner ul { list-style-type: none; padding: 0; margin: 0; float: right; }
 
@@ -384,9 +386,9 @@ header .inner ul li { float: left; font-size: 22px; margin: 0 0 0 15px; }
 
 header .inner ul li a { color: #fff; }
 
-#content-wrapper { min-width: 1422px; }
+#content-wrapper { min-width: 1260px; }
 
-#main-content { width: 1024px; }
+#main-content { min-width: 1260px; }
 
 h1, h2 { margin: 30px 0 10px 0 !important; }
 
@@ -398,7 +400,7 @@ h1, h2 { margin: 30px 0 10px 0 !important; }
 
 .article span { text-align: center; display: block; }
 
-.timeline { width: 1220px; height: 335px; margin: 0 -142px; padding: 5px 0 0 0; }
+.timeline { width: 1220px; height: 335px; margin: 0 auto; padding: 5px 0 0 0; }
 
 .video { width: 560px; height: 315px; margin: 45px auto 70px auto; display: block; }
 

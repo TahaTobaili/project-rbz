@@ -9,7 +9,11 @@
 }
 
 body{
-    min-width: 1422px
+    min-width: 1260px
+}
+
+header .inner{
+    width:1260px;
 }
 
 header .inner ul{
@@ -30,11 +34,11 @@ header .inner ul li a{
 }
 
 #content-wrapper{
-    min-width: 1422px
+    min-width: 1260px
 }
 
 #main-content{
-    width:1024px;
+    min-width:1260px;
 }
 
 h1, h2{
@@ -65,7 +69,7 @@ h1, h2{
 .timeline{
     width: 1220px;
     height: 335px;
-    margin: 0 -142px;
+    margin: 0 auto;
     padding: 5px 0 0 0
 }
 
