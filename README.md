@@ -17,7 +17,7 @@ Arabic is also a phonetically-rich language containing short and long vowels, so
 generates severe word ambiguities that it becomes difficult to transliterate to Arabic. For that, one Arabizi word could easily map to several Arabic words of different meanings. We appreciated the fact that Arabizi
 is a social language and resourced it independently without attempting to transliterate it to Arabic.
 
-Read more in-depth about the challenges of Arabizi for sentiment classification and transliteration [here](https://towardsdatascience.com/sentiment-analysis-for-low-resourced-languages-on-social-media-128bf01f2547).  
+Read more in-depth about the challenges of Arabizi for sentiment classification and transliteration [here](https://medium.com/data-science/sentiment-analysis-for-low-resourced-languages-on-social-media-128bf01f2547).  
 
 ## Resources
 
