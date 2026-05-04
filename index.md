@@ -10,7 +10,7 @@ Supervisors: [Miriam Fernandez](https://kmi.open.ac.uk/people/member/miriam-fern
 Sytem Developer: [Chris Sanders](http://kmi.open.ac.uk/people/member/chris-sanders){:target="_blank"}, KMi.  
 Acknowledgments: [Sanaa Sharafeddine](https://www.aub.edu.lb/pages/profile.aspx?MemberId=ss30){:target="_blank"}, [Rania Islambuli](https://dhp.lbg.ac.at/team/dr-rania-islambouli/?lang=en){:target="_blank"}, [Omar Farhat](https://www.linkedin.com/in/omar-farhat-2aa689102/){:target="_blank"}, and
 [Omar Osman](https://www.linkedin.com/in/omar-osman/){:target="_blank"}, Lebanese American University,  
-[Hazem El-Hajj](https://www.aub.edu.lb/pages/profile.aspx?memberId=hh63){:target="_blank"}, American University of Beirut, and [Goran Glavaš](https://www.uni-mannheim.de/dws/people/professors/prof-dr-goran-glavas/){:target="_blank"}, Universität Mannheim.
+[Hazem El-Hajj](https://www.aub.edu.lb/pages/profile.aspx?memberId=hh63){:target="_blank"}, American University of Beirut, and [Goran Glavaš](https://sites.google.com/view/goranglavas){:target="_blank"}, Universität Mannheim.
 
 ## Introduction
 
